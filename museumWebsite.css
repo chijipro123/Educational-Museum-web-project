@@ -1,0 +1,90 @@
+* {box-sizing: border-box;}
+body { background-color: #00005D;
+      font-family: Verdana, Arial, sans-serif; 
+}
+#wrapper { margin: 0 auto;
+          width: 960px;
+          background-color: #B3C7E6;
+          color: #000066; 
+}	  
+header { background-color: #869DC7;
+		color: #00005D;
+		height: 150px;
+		Font-size: 120%;
+		padding: 10px 10px 10px 155px;
+		background-repeat: no-repeat; 
+		background-image: url(lighthouselogo.jpg)
+        position: relative;
+        z-index: 10;
+        }
+        
+	
+nav { float: right;
+     width: 200px;
+     font-weight: bold;
+     letter-spacing: 0.05em; 
+}
+
+main { display: block;
+       background-color:#FFFFFF;
+       color: #000000;
+       padding: 10px 20px;
+	   overflow: auto;
+}
+footer { font-size: 70%;
+         text-align: center;
+         padding: 10px;
+         background-color: #869DC7;
+         clear: both;
+}
+h2 { color: #869DC7;
+    font-family: Arial, sans-serif;
+}
+#gallery { position: relative; }
+#gallery ul { width: 200px; 
+             list-style-type: none; }
+#gallery li { display: block ; 
+              float: left; 
+			  padding: 5px; }
+#gallery img { border-style: none; }
+#gallery a { text-decoration: none; 
+             color: #333; 
+			 font-style: italic; }
+#gallery span { display: none; }    
+#gallery a:hover span { display: block; 
+                        position: absolute;
+					    top: 10px; 
+						left: 200px; 
+						text-align: center; }
+
+#gallery  { float: left;
+            margin: 5px; 
+} 
+
+
+#floatright { float: right;
+              margin: 10px; 
+} 
+nav ul { list-style-type: none; 
+       margin: 0; 
+	   padding: 0; 
+}
+nav a { text-decoration: none;
+       padding: 20px;
+       display: block;
+       background-color: #B3C7E6;
+       border-bottom: 1px solid #FFFFFF; 
+	   background-image: url(sprites.gif);
+       background-repeat: no-repeat;
+       background-position: right 0;		 
+
+}
+div#formpersonal{
+    color:#BBBBBB;
+    font-family:Arial;
+    };
+   
+nav a:link       { color: #FFFFFF; }
+nav a:visited { color: #EAEAEA; }
+nav a:hover     { color: #869DC7;
+               background-color: #EAEAEA; }
